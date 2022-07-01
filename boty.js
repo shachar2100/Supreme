@@ -37,7 +37,7 @@ puppeteer.use(
 )
 
 const chromeOptions = {
-  executablePath:"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+  executablePath:"", //Were googlecrome is located in your computer.
   headless:false, 
   slowMo:15,
   ignoreDefaultArgs: ["--enable-automation"],
